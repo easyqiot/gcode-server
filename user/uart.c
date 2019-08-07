@@ -112,7 +112,8 @@ STATUS uart_tx_one_char(uint8_t uart, uint8_t TxChar)
     return OK;
 }
 
-/***************************************************************************PERIPHS_IO_MUX_SD_DATA1_Uuart1_write_char * Description  : Internal used function
+/***************************************************************************
+ * PERIPHS_IO_MUX_SD_DATA1_Uuart1_write_char * Description  : Internal used function
  *                Do some special deal while tx char is '\r' or '\n'
  * Parameters   : char c - character to tx
  * Returns      : NONE

@@ -27,6 +27,9 @@ void wifi_connect_cb(uint8_t status) {
 		os_printf("Hello World: %d\r\n", ++i);
 		os_printf("Hello World: %d\r\n", ++i);
 		os_printf("Hello World: %d\r\n", ++i);
+		uart0_tx_buffer((uint8_t*) "abcdefgh\r\n", 10);
+		uart0_tx_buffer((uint8_t*) "abcdefgh\r\n", 10);
+		uart0_tx_buffer((uint8_t*) "abcdefgh\r\n", 10);
     } else {
 		os_printf("Wifi Disonnected\r\n");
     }
