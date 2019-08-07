@@ -1,0 +1,13 @@
+# C
+*.o
+
+.output
+
+# vim
+.*.sw[po]
+.ropeproject
+
+
+# Projejct specific
+include/config.h
+easyq
